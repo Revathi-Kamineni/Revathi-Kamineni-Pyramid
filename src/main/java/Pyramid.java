@@ -38,4 +38,23 @@ public class Pyramid {
     }
     return pyramid;
 }  
+    /*
+    StringBuilder pyramid = new StringBuilder();
+        for (int i = 1; i <= n; i++) {
+            pyramid.append("*".repeat(i)).append("\n");
+        }
+        return pyramid.toString();
+*/
+    /* StringBuilder pyramid = new StringBuilder();
+
+        for (int row = 1; row <= n; row++) {
+            for (int col = 1; col <= row; col++) {
+                pyramid.append("*");
+            }
+            pyramid.append("\n");
+        }
+
+        return pyramid.toString();
+    }
+*/
 }
